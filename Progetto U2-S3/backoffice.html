@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Backoffice</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body class="d-flex flex-column">
+    <header>
+      <nav
+        class="navbar bg-dark border-bottom border-body"
+        data-bs-theme="dark"
+      >
+        <div class="d-flex">
+          <h3 class="text-white ms-4">
+            <a class="text-decoration-none text-white" href="./homepage.html "
+              >Home</a
+            >
+          </h3>
+          <h3 class="text-white ms-4">
+            <a class="text-decoration-none text-white" href="./backoffice.html"
+              >BackOffice</a
+            >
+          </h3>
+          <h3 class="text-white ms-4">
+            <a class="text-decoration-none text-white" href="./modifica.html?"
+              >Edit</a
+            >
+          </h3>
+        </div>
+      </nav>
+    </header>
+    <main class="d-flex flex-column justify-content-center ali vh-100">
+      <div class="row justify-content-center">
+        <div class="col col-12 col-md-2">
+          <h1 id="h1-title" class="text-center">Aggiungi prodotto</h1>
+          <form id="form-element">
+            <div class="mb-3">
+              <label for="name" class="form-label">Chitarra</label>
+              <input class="form-control" id="name" />
+            </div>
+            <div class="mb-3">
+              <label for="description" class="form-label">Descrizione</label>
+              <input class="form-control" id="description" />
+            </div>
+            <div class="mb-3">
+              <label for="brand" class="form-label">Brand</label>
+              <input class="form-control" id="brand" />
+            </div>
+            <div class="mb-3">
+              <label for="img" class="form-label">img</label>
+              <input class="form-control" id="img" />
+            </div>
+            <div class="mb-3">
+              <label for="price" class="form-label">Prezzo chitarra</label>
+              <input class="form-control" id="price" type="number" />
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+      </div>
+    </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./backoffice.js"></script>
+  </body>
+</html>
